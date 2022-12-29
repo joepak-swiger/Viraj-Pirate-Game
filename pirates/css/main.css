@@ -1,0 +1,96 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section {
+    width: 650px;
+    height: 710px;
+    background-color: darkblue;
+}
+
+#frame {
+    border: 5px solid red;
+    background-image: url("/img/waves.jpg");
+    width: 600px;
+    height: 600px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.row {
+    border: 1px solid yellow;
+    width: 100%;
+    height: 10%;
+    margin: 0px;
+}
+.square {
+    border: 1px dotted black;
+    width: 10%;
+    height: 100%;
+    margin: 0px;
+    display: inline-block;
+}
+
+
+.boat {
+    background-image: url("/img/boat-on-waves.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.treasure {
+    background-image: url('/img/imageedit_4_3359640361.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pirate {
+    background-image: url('/img/imageedit_2_7512313651.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.iceberg {
+    background-image: url('/img/iceberg-on-waves.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.boat_on_fire {
+    background-image: url('/img/boat-on-fire.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.boat_explosion {
+    background-image: url('/img/boat-explosion.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.boat_sunk {
+    background-image: url('/img/boat-sunk.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.announce {
+    color: white;
+    text-align: center;
+}
+
+.buttonContainer {
+    width: 90%;
+    margin: 0px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.winText {
+    color: red;
+}
+
